@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html{
+  font-size: 100%;
+}
+
+/* fonts used */
+/* 
+font-family: 'Fugaz One', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Press Start 2P', cursive; */
+
+/* ********************* */
+
+.main{
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(110deg, rgb(250, 255, 173) 46%,rgb(251, 255, 10) 43%);
+  height: 100vh;
+}
+
+.heading{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 800%;
+}
+
+span{
+  display:inline-block;
+  margin:0 2rem;
+}
+
+.Player{
+  font-family: 'Fugaz One', cursive;
+  color: rgb(63, 63, 63);
+  margin-top: 12%;
+}
+
+.roll{
+  margin: 5% auto 1% auto;
+  display: block;
+  height: 5rem;
+  width: 10rem;
+  font-size: 165%;
+  border: none;
+  border-radius: 1rem 0 1rem 0;
+  background-color: rgb(235, 171, 53);
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.roll:hover{
+  cursor: pointer;
+  background-color: rgb(189, 133, 29);
+}
+
+.winner{
+  font-family: 'Press Start 2P', cursive;
+}
+
+.copyright{
+  margin-top: 2%;
+  color: rgb(133, 133, 133);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 50%;
+  }
+
+  .dice{
+    width: 70%;
+  }
+}
